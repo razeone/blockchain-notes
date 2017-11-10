@@ -1,6 +1,6 @@
 ## Blockchain
 
-This repo is about notes on the MOOC [Blockchain for Business - An Introduction to Hyperledger Technologies Curso](https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x) by The Linux Foundation.
+This repo is about notes on the MOOC [Blockchain for Business - An Introduction to Hyperledger Technologies](https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x) by The Linux Foundation.
 
 And other Blockchain personal notes.
 
@@ -34,7 +34,15 @@ In summary, distributed ledger technology generally consists of [three basic com
 
 ## Blockchain Definition
 
-## Blockchain Anatomy Introduction
+According to [hyperledger.org](https://hyperledger.org/about),
+
+> "A blockchain is a peer-to-peer distributed ledger forged by consensus, combined with a system for "smart contracts" and other assistive technologies."
+
+*Smart contracts* are simply computer programs that execute predefined actions when certain conditions within the system are met.
+
+*Consensus* refers to a system of ensuring that parties agree to a certain state of the system as the true state.
+
+## Blockchain - Block's Anatomy Introduction
 
 Blockchain is a specific form or subset of distributed ledger technologies, which constructs a chronological chain of blocks, hence the name 'block-chain'. A block refers to a set of transactions that are bundled together and added to the chain at the same time. In the Bitcoin blockchain, the miner nodes bundle unconfirmed and valid transactions into a block. Each block contains a given number of transactions. In the Bitcoin network, miners must solve a cryptographic challenge to propose the next block. This process is known as 'proof of work', and requires significant computing power. We shall discuss proof of work in more detail in the Consensus Algorithms section. For a brief history of blockchain technology, please click here.
 
@@ -46,3 +54,14 @@ A block commonly consists of four pieces of metadata:
 * The proof of work, also known as a nonce
 * The timestamp
 * The Merkle tree root for the transactions included in this block.
+
+## Merkle Tree
+
+The Merkle tree, also known as a binary hash tree, is a data structure that is used to store hashes of the individual data in large datasets in a way to make the verification of the dataset efficient. It is an anti-tamper mechanism to ensure that the large dataset has not been changed. The word 'tree' is used to refer to a branching data structure in computer science, as seen in the image below. According to Andreas M. Antonopoulos, in the Bitcoin protocol,
+
+> "Merkle trees are used to summarize all the transactions in a block, producing an overall digital fingerprint of the entire set of transactions, providing a very efficient process to verify whether a transaction is included in a block."
+
+[!Merkle Tree](https://prod-edxapp.edx-cdn.org/assets/courseware/v1/5bef2699f0c33f98eb3ccb6c2526b447/asset-v1:LinuxFoundationX+LFS171x+3T2017+type@asset+block/Bitcoin_Block_Data.png)
+
+
+
