@@ -1,7 +1,6 @@
 ## Blockchain
 
-This repo is about notes on the MOOC (Blockchain for Business - An Introduction to Hyperledger Technologies
-Continuar Con El Curso)[https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x] by The Linux Foundation.
+This repo is about notes on the MOOC [Blockchain for Business - An Introduction to Hyperledger Technologies Curso](https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x) by The Linux Foundation.
 
 And other Blockchain personal notes.
 
@@ -15,9 +14,7 @@ With the advent of personal computers and private networks, similar computationa
 
 Over time, Internet and cloud computing architectures enabled global access from a variety of computing devices; whereas mainframes were largely designed to address the needs of large corporations and governments. Even though this 'cloud architecture' is decentralized in terms of hardware, it has given rise to application-level centralization (e.g. Facebook, Twitter, Google, etc).
 
-Currently, we are witnessing the transition from centralized computing, storage, and processing to decentralized architectures and systems. According to (Muneeb Ali)[https://medium.com/@muneeb/the-next-wave-of-computing-743295b4bc73], these systems aim to
-
-"give explicit control of digital assets to end-users and remove the need to trust any third-party servers and infrastructure".
+Currently, we are witnessing the transition from centralized computing, storage, and processing to decentralized architectures and systems. According to [Muneeb Ali](https://medium.com/@muneeb/the-next-wave-of-computing-743295b4bc73), these systems aim to "give explicit control of digital assets to end-users and remove the need to trust any third-party servers and infrastructure".
 
 Distributed ledger technology is one of the key innovations making this shift possible.
 
@@ -29,7 +26,7 @@ A **distributed ledger** is a type of data structure which resides across multip
 
 **Distributed Ledger Technology** includes blockchain technologies and smart contracts. While distributed ledgers existed prior to Bitcoin, the Bitcoin blockchain marks the convergence of a host of technologies, including timestamping of transactions, Peer-to-Peer (P2P) networks, cryptography, and shared computational power, along with a new consensus algorithm. 
 
-In summary, distributed ledger technology generally consists of (three basic components)[https://intelledger.github.io/introduction.html]:
+In summary, distributed ledger technology generally consists of [three basic components](https://intelledger.github.io/introduction.html):
 
 * A data model that captures the current state of the ledger
 * A language of transactions that changes the ledger state
